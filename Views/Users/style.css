@@ -1,0 +1,122 @@
+
+body {
+/*   background-image: url("../Images/reports.jpg");*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color:#016701;/*white;*/
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+div #logoHeader {
+    margin-bottom:5px;
+    text-align: center;
+
+}
+
+.h1-title {
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bg {
+    margin: 2%;
+    margin:0%;
+    padding:0%;
+    background-image: url("../Images/reports.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;background-size: cover;
+   background-color: rgba(01, 67, 01, 0.7);
+    padding: 5px;
+}
+
+
+form div {
+    padding: 10px;
+}
+.diva{
+     text-decoration: underline;
+}
+#label a{
+    padding: 5px;
+    font-weight: normal;
+}
+
+label a {
+    color:#016701;;/*whi*/
+}
+
+#submit {
+
+    padding: 5px;
+    border-radius: 4px;
+    padding-left: 50px;
+    padding-right: 40px;
+
+
+}
+
+div #divsubmit {
+    float: right;
+}
+.well{margin: 2%;
+    
+}
+
+
+
+footer {
+    background-color: #016701;
+    color: white;
+
+}
+
+........................................................
+ 
+.form-label {
+	font-size: 12px;
+	color: 016701;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color:#016701;;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+.btn-start-order {
+	background: 0 0 #ffffff;
+    border: 1px solid #016701;
+    border-radius: 3px;
+    color: #2f323a;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color: #5e9bfc;
+	color: #5e9bfc;
+}

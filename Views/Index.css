@@ -1,0 +1,192 @@
+body {
+
+    background-color: #f1f1f1;
+    text-align: center;
+
+}
+
+
+
+/*beige; Remove the navbar's default margin-bottom and rounded borders label*/
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    color: white;
+    background-color: #016701;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:white;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+.row.content {
+    /*height: 530px;
+    padding-top: 3%;*/
+}
+
+.centerContent{
+    margin-top: 7%;
+}
+/* Set gray background color and 100% height */
+
+.sidenav,
+.sidenavR {
+    padding: 0;
+    text-align: left;
+    background-color: #f1f1f1;
+
+}
+
+.sidenav 
+{
+   /*margin-top: 4%;*/ 
+     background-color:#23282d;;#f1f1f1;
+   
+}
+
+.sidenavR {
+    margin-top: 4%;
+    background-color:#f1f1f1;
+    color: #016701;
+    margin-bottom: 15%;
+
+}
+
+.sidenavR .navbar{
+     background-color: inherit;
+     color: #016701;
+    padding:1%;
+    
+    border-style: none;
+}
+.sidenavR .navbar-nav>li>a {
+    padding: 10px;
+    border-style: solid;
+    border-color:#016701;
+    color:#016701;
+     margin-top: 1%;
+}
+.sidenavR .navbar-nav>li>a:hover{
+    border-color:#016701;
+    background-color: #016701;
+     color:white;
+}
+
+/* Set black  background color, white text and some padding */
+
+footer {
+    background-color: #016701;
+    color: white;
+
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+
+
+
+#myNavbar {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    background-color:#23282d;
+}
+
+#myNavbar ul {
+    /*margin-top: 10%;*/
+    padding: 0px;
+
+}
+
+#myNavbar ul li {
+    /*
+    margin: 10%;
+     padding: 20px;*/
+    
+    padding:9px;
+    margin-left: 0px;
+    margin-right: 0px;
+    list-style: none;
+    border-bottom: 2px solid #016701;
+
+
+}
+
+#myNavbar ul li a {
+    margin: 0px;
+  
+    /*
+      padding: 20px;10px;*/
+     padding-left: 30px;
+    padding-right: 60%;
+    margin:4%;
+     padding:20px;
+   
+    list-style: none;
+
+
+}
+
+#myNavbar a {
+    list-style: none;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+#myNavbar li:hover {
+    background-color: #016701;
+    color: white;
+}
+
+#myNavbar a:hover {
+    color: white;
+}
+
+#myNavbar span {
+    font-size: 30px;
+    display: inline;
+    margin-right: 2px;
+    margin-left: 0px;
+    color: #ccc;
+}
+
+/*Form inputs */
+.btn-success,div .label-success{
+    background-color:#016701;
+}
+
+.transparent {
+background-color: rgba(0,0,0,0);color:inherit; 
+      box-shadow: 2px 2px 5px 2px #888888;
+}
+
+
+.shadow,.panel,.table { box-shadow:none ;
+    box-shadow: 2px 2px 5px 2px #888888;
+    
+}
+.thumbnail{
+   background-color:rgba(1, 103,1,0.7);darkslategrey;
+    color:white;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Page Title </title>
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css" >
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-mini.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
+
+</head>
+
+	<body>
+		<p> This is a Paragraph </p>
+          
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div id="chart-container"  style="width:640px;height:auto">
+                    
+                    <canvas id="myCanvas">
+                        
+                    </canvas  >
+                   <?php  
+                 //  print json_encode($data); 
+                    ?>
+                </div>
+            </div>
+        </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div id="container"  style="width:900px;height:auto">
+                    <div id="chart">
+                        
+                    </div>
+                    <canvas id="myCanvas1">
+                        
+                    </canvas  >
+                   <?php  
+                 //  print json_encode($data); 
+                    ?>
+                </div>
+            </div>
+        </div>
+        
+    <script type="text/javascript" src="Charts/Chart.min.js"></script>
+     <script type="text/javascript" src="Charts/Jquery.mini.js"></script>
+    <script type="text/javascript" src="Charts/App.js"></script>
+        
+      
+
+    
+	</body>
+
+</html>
+
+<script>
+    Morris.bar({
+        element : 'chart',
+        data:[<?php echo $chart_data; ?>],
+    });
+</script>
+
+
+

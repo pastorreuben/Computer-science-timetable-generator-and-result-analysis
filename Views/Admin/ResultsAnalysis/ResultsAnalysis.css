@@ -1,0 +1,47 @@
+ #ResultsAnalysis{
+             background-color: #016701;
+            color: white;
+  }
+ #ResultsAnalysis a{
+           
+            color: white;
+        }
+
+/* course styling */
+
+
+/* Add course styling */
+form {
+  
+}
+form div {
+    padding: 8px;
+}
+div #mainContent
+{
+  padding-left: 5%;
+ padding-right:2%;
+}
+
+.diva{
+     text-decoration: underline;
+}
+#label a{
+    padding: 5px;
+    font-weight: normal;
+}
+
+label a {
+    color: white;
+}
+
+
+
+}
+
+label.label{
+    padding: 2%;
+  
+}
+
+

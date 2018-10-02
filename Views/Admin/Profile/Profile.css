@@ -1,0 +1,55 @@
+
+/* course styling */
+#Profile {
+    background-color:#016701;
+    color: white;
+}
+
+#Profile a {
+
+    color:orange;
+}
+
+
+/* Add course styling */
+form {
+  
+}
+form div {
+    padding: 8px;
+}
+div #mainContent
+{
+  padding-left: 5%;
+ padding-right:2%;
+}
+
+.diva{
+     text-decoration: underline;
+}
+#label a{
+    padding: 5px;
+    font-weight: normal;
+}
+
+label a {
+    color: white;
+}
+
+
+
+label.label{
+    padding: 2%;
+    
+    
+}
+
+.shadow,.panel,.table { box-shadow:none ;
+    box-shadow: 2px 2px 5px 2px #888888;
+    
+}
+.thumbnail{
+   background-color:rgba(1, 103,1,0.7);darkslategrey;
+    color:white;
+}
+
